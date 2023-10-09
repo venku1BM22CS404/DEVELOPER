@@ -19,7 +19,7 @@ jobs:
       - name: Setup Ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.x  # Replace with your desired Ruby version
+          ruby-version: 2  # Use the latest Ruby 2.x version
 
       - name: Install Jekyll and Bundler
         run: |
